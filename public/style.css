@@ -1,0 +1,79 @@
+#demo{
+  text-align: center;
+}
+footer{
+  text-align: center;
+
+}
+p{
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+h1{
+  text-align: center;
+}
+h3{
+  font-size: 28px;
+}
+body{
+  font-family: 'Architects Daughter', cursive;
+  background-color:orange;
+  opacity:1.8;
+}
+#form-data{
+  float: right;
+}
+.container{
+  position: relative;
+}
+#score,#score1{
+  position: absolute;
+  top: 0;
+}
+#start-button{
+  background-color: greenyellow;
+border: 2px solid blue;
+color: #01090a;
+padding: 10px 22px;
+position: absolute;
+top: 90px;
+}
+.container{
+  display: flex;
+  font-size: 18px;
+  clear: both;
+  position:absolute;
+  top:150px;
+  left: 0;
+}
+.grid{
+width:200px;
+height: 400px;
+background-color: yellow;
+display: flex;
+flex-wrap: wrap;
+margin-top: 10px;
+clear: both;
+}
+.grid div{
+  height:20px;
+  width: 20px;
+  /* background-color: red; */
+}
+.tetromino{
+  background-color: blue;
+}
+.mini-grid{
+  width:80px;
+  height:80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fbff04;
+  margin-left: 50px;
+margin-top:10px;
+}
+.mini-grid div{
+width: 20px;
+height: 20px;
+}
